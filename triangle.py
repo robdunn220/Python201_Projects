@@ -5,6 +5,6 @@ y = width
 
 for i in range(width):
     while x < width + 1:
-        print (' ' * ((y-1)/2)) + ('*' * x) + (' ' * ((width-1)/2))
+        print (' ' * ((y-1)/2)) + ('*' * x)
         x = x + 2
         y = y - 2
